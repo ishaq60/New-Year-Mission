@@ -1,0 +1,82 @@
+.banner {
+   position: relative;
+   text-align: center;
+   color: #070211, #07021100;
+   background: linear-gradient #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+ }
+ }
+ 
+ 
+ .banner img {
+   width: 1320PX;
+   height: auto;
+   border-radius: 16px;
+ background: linear-gradient #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+ }
+ 
+ 
+ .banner-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 24px; 
+ }
+ 
+ 
+ .banner-text h3 {
+   /* /* color: #fff; */
+   color: #FFF;
+ text-align: center;
+
+ font-size: 32px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+
+ }
+ .banner-text h1{
+   color: #FFF;
+ text-align: center;
+ 
+ font-size: 72px;
+ font-style: normal;
+ font-weight: 900;
+ line-height: 95px;
+ width: 632px;
+ 
+ }
+ .discription{
+   width: 1600px;
+height:7335px;
+background: #FFF;
+text-align: center;
+ }
+ .discription h1{
+   color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .discription h4{
+   color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .discription h2{
+   color: #070211;
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+ }
+ 
