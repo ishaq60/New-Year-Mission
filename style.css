@@ -1,184 +1,390 @@
+/* common shared style */
+.font-merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+header,
+main {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.color-red {
+  color: #F00;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.heading-text {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+/* banner related style */
 .banner {
-   position: relative;
-   text-align: center;
-   color: #070211, #07021100;
-   background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
- }
- }
- 
- 
- .banner img {
-   width: 1320PX;
-   height: auto;
-   border-radius: 16px;
-   background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
- }
- 
- 
- .banner-text {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   font-size: 24px; 
- }
- 
- 
- .banner-text h3 {
-   /* /* color: #fff; */
-   color: #FFF;
- text-align: center;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+  background-repeat: no-repeat;
 
- font-size: 32px;
- font-style: normal;
- font-weight: 400;
- line-height: normal;
-
- }
- .banner-text h1{
-   color: #FFF;
- text-align: center;
- 
- font-size: 72px;
- font-style: normal;
- font-weight: 900;
- line-height: 95px;
- width: 632px;
- 
- }
- .discription{
-   width: 1600px;
-height:7335px;
-background: #FFF;
-text-align: center;
-margin: auto;
-/* background-image: url("resources/Vectorrr.png"); */
- }
-
-.discription h1{
-  
-text-align: center;
-font-family: Inter; 
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
- }
- .discription h4{
-   color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
- }
- .discription h2{
-   color: #070211;
-   text-align: center;
-   font-family: Inter;
-   font-size: 48px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
- }
- .discription h {
-
- }
- .join-btn{
-   color: #FFF;
-   text-align: center;
-   font-family: Inter;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: normal;
-   text-transform: uppercase;
- }
- .Vectorrr h3 {
-   color:red;
-   font-family: Merriweather;
-   font-size: 64px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: 88px; /* 137.5% */
-   letter-spacing: 7.04px;
- }
- .vh{
-   display: flex;
-width: 319.83px;
-height: 464.662px;
-padding: 0.008px 0px 0px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
- }
- .Vectorrr header{
-   color: #FFF;
-
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
- }
- .Vectorrr-text{
-   color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
- }
- .banners {
-   width: 1320px;
-   height: 600px;
-   position: right;
-   background-image: url('resources/Vectorrr.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-   background-size: cover; /* Adjust the background size as needed */
-   color: white; /* Set text color to contrast with the background image */
-   text-align: center; /* Center the text */
-   padding: 100px; /* Add padding to the container for better readability */
-
-flex-shrink: 0;
-}
-
-/* Style for the text elements */
-.banners h1,  {
-   margin: 0; 
-   color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 242;
-line-height: 88px; /* 137.5% */
-
-width: 244px;
+  background-position: center;
+  border-radius: 16px;
 
 }
-   .banners p{
-      color: rgba(255, 255, 255, 0.80);
-      font-family: Inter;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 30px; /* 166.667% */
-      width: 697px;
-   }
+
+.banner-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  padding: 170px 530px 0px 530px;
 }
 
-/* Style for the button */
-.banners button {
-   
-text-align: right;
+.banner-heading {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 20px;
+  padding: 0 340px 170px 340px;
+}
 
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-color: #FFFFFF;
+/* main related style */
+
+/* offer style */
+.offer {
+  font-family: inter;
+  text-align: center;
+  margin: 120px 0;
+}
+
+.offer-percentage {
+  color: #F00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.offer-deals {
+  margin-top: 48px;
+  color: #F00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.offer-categories {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0px;
+  /* padding: 48px 260px 120px 260px; */
+}
+
+.offer-image {
+  width: 802.9px;
+  height: 500px;
+}
+
+/* welcome section related style */
+.welcome {
+  max-height: 600px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  border-radius: 16px;
+  margin-bottom: 180px;
+}
+
+.welcome-left-column {
+  padding: 126px 0 126px 126px;
+}
+
+.welcome-right-column {
+
+  padding-right: 126px;
+}
+
+.img-2024 {
+  max-width: 319.83px;
+  max-height: 464.662px;
+  /* mix-blend-mode: multiply; */
+}
+
+.welcome-heading {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 0px;
+}
+
+.welcome-text {
+  color: white;
+  opacity: 80%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.btn-join {
+  background-color: #F00;
+  color: #FFF;
+  padding: 20px;
+  border: 0;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-join:hover {
+  background-color: orange;
+}
+
+/* join now section style */
+.join-now-section-container {
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  text-align: center;
+  padding: 100px 300px;
+  font-family: inter;
+  font-size: 32px;
+  font-weight: 600px;
+  border-radius: 16px;
+}
+
+/* coming soon offer style */
+.coming-offer-container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.coming-soon-1 {
+  width: 33.33%;
+}
+
+.best-offer-text {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.coming-soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.coming-soon-text {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.coming-soon-2 {
+  width: 33.33%;
+}
+
+
+.coming-soon-img {
+  border-radius: 50%;
+  padding: 20px;
+  border: 15px solid #F00;
+  margin-top: 45px;
+}
+
+.coming-soon-3 {
+  width: 33.33%;
+}
+
+.coming-soon-year {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.happy-new-year-image{
+  margin-top: 40px;
+}
+/* holyday sale related style */
+.holyday-sale-container {
+  text-align: center;
+}
+
+.holyday-sale-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holyday-sale-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0 28px 0;
+}
+
+.holyday-sale-description {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 126px;
+  margin-bottom: 70px;
+}
+.holyday-sale-image-container{
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../resources/Rectangle\ 2.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.holyday-sale-box{
+  position: relative;
+}
+.holyday-sale-profile-pic{
+  position: relative;
+  bottom: -5px;
+}
+.discount-image{
+  position: absolute;
+  bottom: 300px;
+  right: 280px;
+  /* left: 1130px;
+  margin-top: 70px; */
+}
+
+
+/* portfolio section style */
+.portfolio-title {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.portfolio-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-image {
+  transition: transform .2s;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* subscribe section style */
+.subscribe-container {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 210px;
+}
+
+.subscribe-img {
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  position: relative;
+  padding: 25px 250px 25px 30px;
+  border-radius: 50px 0 0 50px;
+  border: 0;
+}
+
+input[type="submit"] {
+  position: relative;
+  padding: 24px 56px;
+  border-radius: 0 50px 50px 0;
+  color: #FFF;
+  border: 0;
+  background-color: #F00;
+  font-family: inter;
+  font-weight: bold;
+  left: -5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: orange;
+}
+/* footer related style */
+footer {
+  background-color: #070211;
+  padding: 120px 140px;
+}
+
+.footer-text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 80px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  opacity: 15%;
+  margin: 50px 0px;
+}
+
+/* social media */
+.social-media,
+a {
+  text-align: center;
+  margin-right: 24px;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-end a {
+  text-decoration: none;
 }
